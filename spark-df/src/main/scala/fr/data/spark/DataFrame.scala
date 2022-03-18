@@ -1,5 +1,4 @@
 package fr.data.spark
-
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 import org.apache.spark.SparkConf
@@ -37,7 +36,6 @@ object DataFrame {
 // Quel est le département avec le plus de communes ?
 
   println(" \n Departement avec le plus de communes \n")
-
   df1.groupBy("Departement").count().sort(desc("count")).show()
 
 
