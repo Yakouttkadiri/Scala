@@ -6,7 +6,7 @@ Ouvrez le fichier des codes postaux.
 Combien de colonnes contient-il ? 
 Comment ces colonnes sont-elles distribuées ? 
 Quelle sont les types des colonnes du fichier ?
-
+Il contient 6 colonnes
 
 Lisez le fichier des codes postaux avec Spark et affichez son contenu dans la console. 
 
